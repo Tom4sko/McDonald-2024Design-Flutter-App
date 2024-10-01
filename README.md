@@ -1,16 +1,10 @@
-# mcdonaldclone
+# McDonald-2024-Design
+My personal mcdonald clone.
 
-A new Flutter project.
+# Start
+Flutter SDK
+Android Studio
 
-## Getting Started
+# Photo Preview
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![mcdonald](https://github.com/user-attachments/assets/721eb21c-4220-416d-9be9-b2115d31da9f)
