@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:mcdonaldclone/screens/cupons_screen.dart';
 import 'package:mcdonaldclone/screens/news_screen.dart';
+import 'package:mcdonaldclone/screens/options_screen.dart';
+import 'package:mcdonaldclone/screens/order_screen.dart';
 import 'package:mcdonaldclone/screens/restaurants_screen.dart';
 
 class Navigation extends StatefulWidget {
@@ -14,7 +16,9 @@ int _currentIndex = 0;
 final _screens = const [
   News(),
   Cupons(),
+  Order(),
   Restaurants(),
+  Options(),
 ];
 
 class _NavigationState extends State<Navigation> {

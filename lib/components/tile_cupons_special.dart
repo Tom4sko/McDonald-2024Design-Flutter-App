@@ -34,7 +34,7 @@ class TileCuponsSpecial extends StatelessWidget {
                 Image.asset(
                   picture,
                   width: 200,
-                  height: 150,
+                  height: 130,
                 ),
                 Spacer(),
                 Padding(
@@ -64,7 +64,7 @@ class TileCuponsSpecial extends StatelessWidget {
             SizedBox(height: 10.0),
             Container(
               width: double.infinity,
-              height: 40,
+              height: 60,
               color: Colors.white,
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.start,

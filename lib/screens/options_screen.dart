@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Restaurants extends StatelessWidget {
-  const Restaurants({super.key});
+class Options extends StatelessWidget {
+  const Options({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("Restaurant"),
+      body: Text("Options"),
     );
   }
 }
