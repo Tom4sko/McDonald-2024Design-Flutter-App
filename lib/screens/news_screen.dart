@@ -12,10 +12,11 @@ class News extends StatelessWidget {
         body: SingleChildScrollView(
           child: Column(
             children: [
+              SizedBox(height: 30.0,),
               Container(
                 child: Image.asset(
                   "assets/images/cups.png",
-                  height: 200,
+                  height: 180,
                   fit: BoxFit.contain,
                 ),
               ),

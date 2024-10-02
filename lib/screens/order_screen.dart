@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mcdonaldclone/screens/navigation.dart';
 import 'package:mcdonaldclone/screens/restaurants_screen.dart';
 
 class Order extends StatelessWidget {
@@ -44,16 +45,21 @@ class Order extends StatelessWidget {
             ],
           ),
           Spacer(),
-          Container(
-              width: double.infinity,
-              height: 50,
-              child: Center(
-                child: Text("Pokračovať", style: TextStyle(fontSize: 15.0),),
+          GestureDetector(
+            onTap: () {
+              Navigator.push(context, MaterialPageRoute(builder: (context) => Navigation(),),);
+            },
+            child: Container(
+                width: double.infinity,
+                height: 50,
+                child: Center(
+                  child: Text("Pokračovať", style: TextStyle(fontSize: 15.0),),
+                ),
+                decoration: BoxDecoration(
+                  color: Colors.yellow[600],
+                ),
               ),
-              decoration: BoxDecoration(
-                color: Colors.yellow[600],
-              ),
-            ),
+          ),
         ],
       ),
     );

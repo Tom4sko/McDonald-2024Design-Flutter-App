@@ -30,11 +30,14 @@ class CardWidget extends StatelessWidget {
               width: double.infinity,
               child: Stack(
                 children: [
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Image.asset(picture),
-                    ],
+                  Padding(
+                    padding: const EdgeInsets.only(right: 120.0),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset(picture),
+                      ],
+                    ),
                   ),
                   Positioned(
                     top: 40,
