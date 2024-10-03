@@ -27,7 +27,7 @@ class SaleWidget extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 201,
+              height: 200,
               color: Colors.yellow[600],
               width: double.infinity,
               child: Stack(
@@ -58,7 +58,6 @@ class SaleWidget extends StatelessWidget {
                         ),
                       ),
                       decoration: BoxDecoration(
-                        color: Colors.yellow,
                         borderRadius: BorderRadius.only(topLeft: Radius.circular(20.0), bottomLeft: Radius.circular(20.0),),
                       ),
                     ),
@@ -66,7 +65,7 @@ class SaleWidget extends StatelessWidget {
                 ],
               ),
             ),
-            SizedBox(height: 20.0,), 
+            SizedBox(height: 21.3,), 
             Padding(
               padding: const EdgeInsets.only(left: 20.0, right: 20.0),
               child: Text(title, style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24.0),),

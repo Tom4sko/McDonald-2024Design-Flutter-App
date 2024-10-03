@@ -116,7 +116,7 @@ class Options extends StatelessWidget {
                       Icons.lock_outline,
                     ),
                   ),
-                  Text("Zásady ochrannz osobných údajov", style: TextStyle(fontSize: 17.0,),),
+                  Text("Zásady ochranny osobných údajov", style: TextStyle(fontSize: 17.0,),),
                   Spacer(),
                   Padding(
                     padding: const EdgeInsets.only(right: 20.0),
